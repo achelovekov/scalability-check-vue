@@ -1,6 +1,6 @@
 <template>
 <div class='container-vertical'>
-    <button v-for="roomInventory in room.roomInventory" :key="roomInventory.segmentName" @click="setVisibleSegment(roomInventory)">{{ roomInventory.segmentName }} </button>
+    <button v-for="segment in room.roomInventory" :key="segment.segmentName" @click="setVisibleSegment(segment)">{{ segment.segmentName }} </button>
 </div>
 <segment v-if="visibleSegment" :segment="visibleSegment"></segment>
 </template>
@@ -18,7 +18,7 @@ export default {
             if ( !this.visibleSegment ) {
                 this.visibleSegment = item
             } else {
-                if ( this.visibleSegment.room === item.room ) {
+                if ( this.visibleSegment.segmentName === item.segmentName ) {
                     this.visibleSegment = null
                 } else {
                     this.visibleSegment = item

@@ -1,1 +1,944 @@
-[{"room": "031", "roomInventory": [{"segmentName": "EXT", "segmentInventory": [{"groupName": "AG", "groupInventory": [{"hostname": "SKO-DATA-AG-031-K09-01-EXT", "featureset": "BGP-EVPN", "chassis": "N9K-C93180YC-FX", "linecards": [{"moduleNumber": 1, "moduleType": "N9K-C93180YC-FX"}], "fabricmodules": [], "metricsValues": [{"metric": "svi", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "27", "referenceValue": "2000", "loadValue": "0.01", "loadLevel": "Ok"}}]}, {"metric": "mac", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "15474", "referenceValue": "90000", "loadValue": "0.17", "loadLevel": "Ok"}}]}, {"metric": "vlan", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "82", "referenceValue": "3916", "loadValue": "0.02", "loadLevel": "Ok"}}]}, {"metric": "vtep", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "93", "referenceValue": "512", "loadValue": "0.18", "loadLevel": "Ok"}}]}, {"metric": "mcast", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "43", "referenceValue": "128", "loadValue": "0.34", "loadLevel": "Ok"}}]}, {"metric": "v4_hosts", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": "1", "moduleType": "N9K-C93180YC-FX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}]}]}, {"hostname": "SKO-DATA-AG-031-K10-01-EXT", "featureset": "BGP-EVPN", "chassis": "N9K-C93180YC-FX", "linecards": [{"moduleNumber": 1, "moduleType": "N9K-C93180YC-FX"}], "fabricmodules": [], "metricsValues": [{"metric": "svi", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "27", "referenceValue": "2000", "loadValue": "0.01", "loadLevel": "Ok"}}]}, {"metric": "mac", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "15474", "referenceValue": "90000", "loadValue": "0.17", "loadLevel": "Ok"}}]}, {"metric": "vlan", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "82", "referenceValue": "3916", "loadValue": "0.02", "loadLevel": "Ok"}}]}, {"metric": "vtep", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "93", "referenceValue": "512", "loadValue": "0.18", "loadLevel": "Ok"}}]}, {"metric": "mcast", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "43", "referenceValue": "128", "loadValue": "0.34", "loadLevel": "Ok"}}]}, {"metric": "v4_hosts", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": "1", "moduleType": "N9K-C93180YC-FX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}]}]}]}]}]}, {"room": "041", "roomInventory": [{"segmentName": "INT", "segmentInventory": [{"groupName": "AC", "groupInventory": [{"hostname": "SKO-DATA-AC-041-D04-01-INT", "featureset": "BGP-EVPN", "chassis": "N9K-C9504", "linecards": [{"moduleNumber": 1, "moduleType": "N9K-X9732C-EX"}, {"moduleNumber": 2, "moduleType": "N9K-X9732C-EX"}, {"moduleNumber": 3, "moduleType": "N9K-X9732C-EX"}, {"moduleNumber": 4, "moduleType": "N9K-X9732C-EX"}], "fabricmodules": [{"moduleNumber": 22, "moduleType": "N9K-C9504-FM-E"}, {"moduleNumber": 23, "moduleType": "N9K-C9504-FM-E"}, {"moduleNumber": 24, "moduleType": "N9K-C9504-FM-E"}, {"moduleNumber": 26, "moduleType": "N9K-C9504-FM-E"}], "metricsValues": [{"metric": "svi", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "0", "referenceValue": "1000", "loadValue": "0.0", "loadLevel": "Ok"}}]}, {"metric": "mac", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "15474", "referenceValue": "64000", "loadValue": "0.24", "loadLevel": "Ok"}}]}, {"metric": "vlan", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "3800", "referenceValue": "3916", "loadValue": "0.97", "loadLevel": "Critical"}}]}, {"metric": "vtep", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "152", "referenceValue": "512", "loadValue": "0.3", "loadLevel": "Ok"}}]}, {"metric": "mcast", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "50", "referenceValue": "128", "loadValue": "0.39", "loadLevel": "Ok"}}]}, {"metric": "v4_hosts", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": "1", "moduleType": "N9K-X9732C-EX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "2", "moduleType": "N9K-X9732C-EX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "3", "moduleType": "N9K-X9732C-EX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "4", "moduleType": "N9K-X9732C-EX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "22", "moduleType": "N9K-C9504-FM-E", "value": {"originalValue": "0.00", "referenceValue": "1", "loadValue": "0.0", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "23", "moduleType": "N9K-C9504-FM-E", "value": {"originalValue": "0.00", "referenceValue": "1", "loadValue": "0.0", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "24", "moduleType": "N9K-C9504-FM-E", "value": {"originalValue": "0.00", "referenceValue": "1", "loadValue": "0.0", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "26", "moduleType": "N9K-C9504-FM-E", "value": {"originalValue": "0.00", "referenceValue": "1", "loadValue": "0.0", "loadLevel": "Ok"}}]}]}]}]}, {"segmentName": "EXT", "segmentInventory": [{"groupName": "AC", "groupInventory": [{"hostname": "SKO-DATA-AC-041-D04-01-EXT", "featureset": "BGP-EVPN", "chassis": "N9K-C9504", "linecards": [{"moduleNumber": 1, "moduleType": "N9K-X9732C-EX"}, {"moduleNumber": 2, "moduleType": "N9K-X9732C-EX"}, {"moduleNumber": 3, "moduleType": "N9K-X9732C-EX"}, {"moduleNumber": 4, "moduleType": "N9K-X9732C-EX"}], "fabricmodules": [{"moduleNumber": 22, "moduleType": "N9K-C9504-FM-E"}, {"moduleNumber": 23, "moduleType": "N9K-C9504-FM-E"}, {"moduleNumber": 24, "moduleType": "N9K-C9504-FM-E"}, {"moduleNumber": 26, "moduleType": "N9K-C9504-FM-E"}], "metricsValues": [{"metric": "svi", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "0", "referenceValue": "1000", "loadValue": "0.0", "loadLevel": "Ok"}}]}, {"metric": "mac", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "15474", "referenceValue": "64000", "loadValue": "0.24", "loadLevel": "Ok"}}]}, {"metric": "vlan", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "3800", "referenceValue": "3916", "loadValue": "0.97", "loadLevel": "Critical"}}]}, {"metric": "vtep", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "152", "referenceValue": "512", "loadValue": "0.3", "loadLevel": "Ok"}}]}, {"metric": "mcast", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "50", "referenceValue": "128", "loadValue": "0.39", "loadLevel": "Ok"}}]}, {"metric": "v4_hosts", "metricValuesByModule": [{"chassis": "N9K-C9504", "moduleNumber": "1", "moduleType": "N9K-X9732C-EX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "2", "moduleType": "N9K-X9732C-EX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "3", "moduleType": "N9K-X9732C-EX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "4", "moduleType": "N9K-X9732C-EX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "22", "moduleType": "N9K-C9504-FM-E", "value": {"originalValue": "0.00", "referenceValue": "1", "loadValue": "0.0", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "23", "moduleType": "N9K-C9504-FM-E", "value": {"originalValue": "0.00", "referenceValue": "1", "loadValue": "0.0", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "24", "moduleType": "N9K-C9504-FM-E", "value": {"originalValue": "0.00", "referenceValue": "1", "loadValue": "0.0", "loadLevel": "Ok"}}, {"chassis": "N9K-C9504", "moduleNumber": "26", "moduleType": "N9K-C9504-FM-E", "value": {"originalValue": "0.00", "referenceValue": "1", "loadValue": "0.0", "loadLevel": "Ok"}}]}]}]}]}]}, {"room": "033", "roomInventory": [{"segmentName": "INT", "segmentInventory": [{"groupName": "AG", "groupInventory": [{"hostname": "SKO-DATA-AG-033-K10-01-INT", "featureset": "BGP-EVPN", "chassis": "N9K-C93180YC-FX", "linecards": [{"moduleNumber": 1, "moduleType": "N9K-C93180YC-FX"}], "fabricmodules": [], "metricsValues": [{"metric": "svi", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "27", "referenceValue": "2000", "loadValue": "0.01", "loadLevel": "Ok"}}]}, {"metric": "mac", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "15474", "referenceValue": "90000", "loadValue": "0.17", "loadLevel": "Ok"}}]}, {"metric": "vlan", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "82", "referenceValue": "3916", "loadValue": "0.02", "loadLevel": "Ok"}}]}, {"metric": "vtep", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "93", "referenceValue": "512", "loadValue": "0.18", "loadLevel": "Ok"}}]}, {"metric": "mcast", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "43", "referenceValue": "128", "loadValue": "0.34", "loadLevel": "Ok"}}]}, {"metric": "v4_hosts", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": "1", "moduleType": "N9K-C93180YC-FX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}]}]}]}]}]}, {"room": "MD1", "roomInventory": [{"segmentName": "EXT", "segmentInventory": [{"groupName": "BL", "groupInventory": [{"hostname": "SKO-DATA-BL-MD1-L13-01-EXT-NEW", "featureset": "BGP-EVPN", "chassis": "N9K-C93180YC-FX", "linecards": [{"moduleNumber": 1, "moduleType": "N9K-C93180YC-FX"}], "fabricmodules": [], "metricsValues": [{"metric": "svi", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "27", "referenceValue": "2000", "loadValue": "0.01", "loadLevel": "Ok"}}]}, {"metric": "mac", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "15474", "referenceValue": "90000", "loadValue": "0.17", "loadLevel": "Ok"}}]}, {"metric": "vlan", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "82", "referenceValue": "3916", "loadValue": "0.02", "loadLevel": "Ok"}}]}, {"metric": "vtep", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "93", "referenceValue": "512", "loadValue": "0.18", "loadLevel": "Ok"}}]}, {"metric": "mcast", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": null, "moduleType": null, "value": {"originalValue": "43", "referenceValue": "128", "loadValue": "0.34", "loadLevel": "Ok"}}]}, {"metric": "v4_hosts", "metricValuesByModule": [{"chassis": "N9K-C93180YC-FX", "moduleNumber": "1", "moduleType": "N9K-C93180YC-FX", "value": {"originalValue": "0.14", "referenceValue": "1", "loadValue": "0.14", "loadLevel": "Ok"}}]}]}]}]}]}]
+[
+    {
+      "room": "031",
+      "roomInventory": [
+        {
+          "segmentName": "EXT",
+          "segmentInventory": [
+            {
+              "groupName": "AG",
+              "groupInventory": [
+                {
+                  "hostname": "SKO-DATA-AG-031-K09-01-EXT",
+                  "featureset": "BGP-EVPN",
+                  "chassis": "N9K-C93180YC-FX",
+                  "linecards": [
+                    {
+                      "moduleNumber": 1,
+                      "moduleType": "N9K-C93180YC-FX"
+                    }
+                  ],
+                  "fabricmodules": [],
+                  "metricsValues": [
+                    {
+                      "metric": "svi",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "27",
+                            "referenceValue": "2000",
+                            "loadValue": "0.01",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mac",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "15474",
+                            "referenceValue": "90000",
+                            "loadValue": "0.17",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vlan",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "82",
+                            "referenceValue": "3916",
+                            "loadValue": "0.02",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vtep",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "93",
+                            "referenceValue": "512",
+                            "loadValue": "0.18",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mcast",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "43",
+                            "referenceValue": "128",
+                            "loadValue": "0.34",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "v4_hosts",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": "1",
+                          "moduleType": "N9K-C93180YC-FX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "hostname": "SKO-DATA-AG-031-K10-01-EXT",
+                  "featureset": "BGP-EVPN",
+                  "chassis": "N9K-C93180YC-FX",
+                  "linecards": [
+                    {
+                      "moduleNumber": 1,
+                      "moduleType": "N9K-C93180YC-FX"
+                    }
+                  ],
+                  "fabricmodules": [],
+                  "metricsValues": [
+                    {
+                      "metric": "svi",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "27",
+                            "referenceValue": "2000",
+                            "loadValue": "0.01",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mac",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "15474",
+                            "referenceValue": "90000",
+                            "loadValue": "0.17",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vlan",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "82",
+                            "referenceValue": "3916",
+                            "loadValue": "0.02",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vtep",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "93",
+                            "referenceValue": "512",
+                            "loadValue": "0.18",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mcast",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "43",
+                            "referenceValue": "128",
+                            "loadValue": "0.34",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "v4_hosts",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": "1",
+                          "moduleType": "N9K-C93180YC-FX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "room": "041",
+      "roomInventory": [
+        {
+          "segmentName": "INT",
+          "segmentInventory": [
+            {
+              "groupName": "AB",
+              "groupInventory": [
+                {
+                  "hostname": "SKO-DATA-AC-041-D04-01-INT",
+                  "featureset": "BGP-EVPN",
+                  "chassis": "N9K-C9504",
+                  "linecards": [
+                    {
+                      "moduleNumber": 1,
+                      "moduleType": "N9K-X9732C-EX"
+                    },
+                    {
+                      "moduleNumber": 2,
+                      "moduleType": "N9K-X9732C-EX"
+                    },
+                    {
+                      "moduleNumber": 3,
+                      "moduleType": "N9K-X9732C-EX"
+                    },
+                    {
+                      "moduleNumber": 4,
+                      "moduleType": "N9K-X9732C-EX"
+                    }
+                  ],
+                  "fabricmodules": [
+                    {
+                      "moduleNumber": 22,
+                      "moduleType": "N9K-C9504-FM-E"
+                    },
+                    {
+                      "moduleNumber": 23,
+                      "moduleType": "N9K-C9504-FM-E"
+                    },
+                    {
+                      "moduleNumber": 24,
+                      "moduleType": "N9K-C9504-FM-E"
+                    },
+                    {
+                      "moduleNumber": 26,
+                      "moduleType": "N9K-C9504-FM-E"
+                    }
+                  ],
+                  "metricsValues": [
+                    {
+                      "metric": "svi",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "0",
+                            "referenceValue": "1000",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mac",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "15474",
+                            "referenceValue": "64000",
+                            "loadValue": "0.24",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vlan",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "3800",
+                            "referenceValue": "3916",
+                            "loadValue": "0.97",
+                            "loadLevel": "Critical"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vtep",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "152",
+                            "referenceValue": "512",
+                            "loadValue": "0.3",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mcast",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "50",
+                            "referenceValue": "128",
+                            "loadValue": "0.39",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "v4_hosts",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "1",
+                          "moduleType": "N9K-X9732C-EX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "2",
+                          "moduleType": "N9K-X9732C-EX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "3",
+                          "moduleType": "N9K-X9732C-EX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "4",
+                          "moduleType": "N9K-X9732C-EX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "22",
+                          "moduleType": "N9K-C9504-FM-E",
+                          "value": {
+                            "originalValue": "0.00",
+                            "referenceValue": "1",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "23",
+                          "moduleType": "N9K-C9504-FM-E",
+                          "value": {
+                            "originalValue": "0.00",
+                            "referenceValue": "1",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "24",
+                          "moduleType": "N9K-C9504-FM-E",
+                          "value": {
+                            "originalValue": "0.00",
+                            "referenceValue": "1",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "26",
+                          "moduleType": "N9K-C9504-FM-E",
+                          "value": {
+                            "originalValue": "0.00",
+                            "referenceValue": "1",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segmentName": "EXT",
+          "segmentInventory": [
+            {
+              "groupName": "AC",
+              "groupInventory": [
+                {
+                  "hostname": "SKO-DATA-AC-041-D04-01-EXT",
+                  "featureset": "BGP-EVPN",
+                  "chassis": "N9K-C9504",
+                  "linecards": [
+                    {
+                      "moduleNumber": 1,
+                      "moduleType": "N9K-X9732C-EX"
+                    },
+                    {
+                      "moduleNumber": 2,
+                      "moduleType": "N9K-X9732C-EX"
+                    },
+                    {
+                      "moduleNumber": 3,
+                      "moduleType": "N9K-X9732C-EX"
+                    },
+                    {
+                      "moduleNumber": 4,
+                      "moduleType": "N9K-X9732C-EX"
+                    }
+                  ],
+                  "fabricmodules": [
+                    {
+                      "moduleNumber": 22,
+                      "moduleType": "N9K-C9504-FM-E"
+                    },
+                    {
+                      "moduleNumber": 23,
+                      "moduleType": "N9K-C9504-FM-E"
+                    },
+                    {
+                      "moduleNumber": 24,
+                      "moduleType": "N9K-C9504-FM-E"
+                    },
+                    {
+                      "moduleNumber": 26,
+                      "moduleType": "N9K-C9504-FM-E"
+                    }
+                  ],
+                  "metricsValues": [
+                    {
+                      "metric": "svi",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "0",
+                            "referenceValue": "1000",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mac",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "15474",
+                            "referenceValue": "64000",
+                            "loadValue": "0.24",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vlan",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "3800",
+                            "referenceValue": "3916",
+                            "loadValue": "0.97",
+                            "loadLevel": "Critical"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vtep",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "152",
+                            "referenceValue": "512",
+                            "loadValue": "0.3",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mcast",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "50",
+                            "referenceValue": "128",
+                            "loadValue": "0.39",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "v4_hosts",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "1",
+                          "moduleType": "N9K-X9732C-EX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "2",
+                          "moduleType": "N9K-X9732C-EX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "3",
+                          "moduleType": "N9K-X9732C-EX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "4",
+                          "moduleType": "N9K-X9732C-EX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "22",
+                          "moduleType": "N9K-C9504-FM-E",
+                          "value": {
+                            "originalValue": "0.00",
+                            "referenceValue": "1",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "23",
+                          "moduleType": "N9K-C9504-FM-E",
+                          "value": {
+                            "originalValue": "0.00",
+                            "referenceValue": "1",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "24",
+                          "moduleType": "N9K-C9504-FM-E",
+                          "value": {
+                            "originalValue": "0.00",
+                            "referenceValue": "1",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        },
+                        {
+                          "chassis": "N9K-C9504",
+                          "moduleNumber": "26",
+                          "moduleType": "N9K-C9504-FM-E",
+                          "value": {
+                            "originalValue": "0.00",
+                            "referenceValue": "1",
+                            "loadValue": "0.0",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "room": "033",
+      "roomInventory": [
+        {
+          "segmentName": "INT",
+          "segmentInventory": [
+            {
+              "groupName": "AG",
+              "groupInventory": [
+                {
+                  "hostname": "SKO-DATA-AG-033-K10-01-INT",
+                  "featureset": "BGP-EVPN",
+                  "chassis": "N9K-C93180YC-FX",
+                  "linecards": [
+                    {
+                      "moduleNumber": 1,
+                      "moduleType": "N9K-C93180YC-FX"
+                    }
+                  ],
+                  "fabricmodules": [],
+                  "metricsValues": [
+                    {
+                      "metric": "svi",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "27",
+                            "referenceValue": "2000",
+                            "loadValue": "0.01",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mac",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "15474",
+                            "referenceValue": "90000",
+                            "loadValue": "0.17",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vlan",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "82",
+                            "referenceValue": "3916",
+                            "loadValue": "0.02",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vtep",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "93",
+                            "referenceValue": "512",
+                            "loadValue": "0.18",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mcast",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "43",
+                            "referenceValue": "128",
+                            "loadValue": "0.34",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "v4_hosts",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": "1",
+                          "moduleType": "N9K-C93180YC-FX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "room": "MD1",
+      "roomInventory": [
+        {
+          "segmentName": "EXT",
+          "segmentInventory": [
+            {
+              "groupName": "BL",
+              "groupInventory": [
+                {
+                  "hostname": "SKO-DATA-BL-MD1-L13-01-EXT-NEW",
+                  "featureset": "BGP-EVPN",
+                  "chassis": "N9K-C93180YC-FX",
+                  "linecards": [
+                    {
+                      "moduleNumber": 1,
+                      "moduleType": "N9K-C93180YC-FX"
+                    }
+                  ],
+                  "fabricmodules": [],
+                  "metricsValues": [
+                    {
+                      "metric": "svi",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "27",
+                            "referenceValue": "2000",
+                            "loadValue": "0.01",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mac",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "15474",
+                            "referenceValue": "90000",
+                            "loadValue": "0.17",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vlan",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "82",
+                            "referenceValue": "3916",
+                            "loadValue": "0.02",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "vtep",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "93",
+                            "referenceValue": "512",
+                            "loadValue": "0.18",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "mcast",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": null,
+                          "moduleType": null,
+                          "value": {
+                            "originalValue": "43",
+                            "referenceValue": "128",
+                            "loadValue": "0.34",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "metric": "v4_hosts",
+                      "metricValuesByModule": [
+                        {
+                          "chassis": "N9K-C93180YC-FX",
+                          "moduleNumber": "1",
+                          "moduleType": "N9K-C93180YC-FX",
+                          "value": {
+                            "originalValue": "0.14",
+                            "referenceValue": "1",
+                            "loadValue": "0.14",
+                            "loadLevel": "Ok"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
