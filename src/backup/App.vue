@@ -1,15 +1,43 @@
 <template>
-<div class='container-horizontal'>
-<model :model="model"></model>
+<div class="container-horizontal">
+  <div class="container-vertical">
+    <div v-for="room in complianceData" :key="room.room">
+        <button @click="toggleRoomDevicesIsVisible(room)">{{ room.room }}</button>
+    </div>
+  </div>
+  <div class="container-vertical">
+    <div v-for="room in complianceData" :key="room.room">
+      <div v-for="device in room.devices" :key="device.hostname">
+        <button @click="toggleItemIsVisible(device)" v-if="room.isVisible">{{ device.hostname }}</button>
+      </div>
+    </div>
+  </div> 
 </div>
+<div>
+  <div v-for="room in complianceData" :key="room.room">
+    <div v-for="device in room.devices" :key="device.hostname">
+      <div :class="{ 'overlay-visible': device.isVisible, 'overlay-hidden': !device.isVisible}" @click="toggleItemIsVisible(device)">
+        <pre style="margin-left: 10rem;">{{ device.metricsValues }}</pre>
+      </div>
+    </div>
+  </div>
+</div> 
 </template>
 
 <script>
-import model from './model.json'
 export default {
-    data: function() {
-      return {
-        model: model
+      data: function() {
+        return { 
+          complianceData: 
+        }
+      },
+    methods: {
+      toggleRoomDevicesIsVisible(item) {
+        this.complianceData.forEach(item => item.isVisible = false)
+        item.isVisible = true
+      },
+      toggleItemIsVisible(item) {
+        item.isVisible = !item.isVisible
       }
     }
 }
@@ -32,6 +60,11 @@ button {
 .container-horizontal {
   display: flex;
   flex-direction: row;
+}
+
+.container-vertical {
+  display: flex;
+  flex-direction: column;
 }
 
 .overlay-visible {
