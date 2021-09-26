@@ -28,6 +28,7 @@ export default {
     },
     watch: {
         room: function() {
+            console.log("watcher executed")
             this.visibleSegment = null
         }
     }

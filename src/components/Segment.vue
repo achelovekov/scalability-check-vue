@@ -1,7 +1,8 @@
 <template>
 <div class='container-vertical'>
-    <button v-for="group in segment.segmentInventory" :key="group.groupName">{{ group.groupName }} </button>
+    <button v-for="group in segment.segmentInventory" :key="group.groupName" @click="setVisibleGroup(group)">{{ group.groupName }} </button>
 </div>
+<group v-if="visibleGroup" :group="visibleGroup"></group>
 </template>
 
 <script>
@@ -22,7 +23,7 @@ export default {
                     this.visibleGroup = null
                     console.log(this.visibleGroup)
                 } else {
-                    this.visibleRoom = item
+                    this.visibleGroup = item
                     console.log(this.visibleGroup)
                 }
             }

@@ -17,14 +17,11 @@ export default {
         setVisibleRoom(item) {
             if ( !this.visibleRoom ) {
                 this.visibleRoom = item
-                console.log(this.visibleRoom)
             } else {
                 if ( this.visibleRoom.room === item.room) {
                     this.visibleRoom = null
-                    console.log(this.visibleRoom)
                 } else {
                     this.visibleRoom = item
-                    console.log(this.visibleRoom)
                 }
             }
         }
